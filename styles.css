@@ -9,13 +9,14 @@ body {
 }
 
 .bg-image {
-    background-image: url('./bg1.jpg');
+    background-image: url('./Pictures/bg2.png');
     width: 100%;
     height: 100vh; /* 100vh sets the height to 100% of the viewport height */
     background-position: center;
-    background-attachment: fixed; /* Background remains fixed as you scroll */
+    background-attachment: fixed; /* Background remains fixed scroll */
     background-size: 100%; 
     background-repeat: no-repeat;
+    background-color: #025b27d1;
 }
 
 
@@ -72,6 +73,16 @@ nav {
     font-weight: 600;
     color: rgb(144, 228, 10);
     margin-left: 10px;
+}
+
+.art1{
+    width: 70%;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+.h-2{
+    padding-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
