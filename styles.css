@@ -85,6 +85,10 @@ nav {
     padding-left: 20px;
 }
 
+td{
+    padding-left: -10px;
+}
+
 @media screen and (max-width: 768px) {
     .nav-bar a {
         float: none;
